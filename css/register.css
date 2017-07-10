@@ -1,0 +1,328 @@
+.header{
+	width: 100%;
+	height: 100px;
+	box-shadow: 0 0 18px  #b9b6b5;
+	font-family: "微软雅黑";
+}
+.header img{
+	display: block;
+	float: left;
+	margin-left: 19px;
+}
+.header p{
+	border-left: 1px solid #ececec;
+	height: 60px;
+	line-height: 60px;
+	margin-top: 13px;
+	margin-left: 30px;
+	padding-left: 37px;
+	font-size: 24px;
+	float: left;
+	color: #333333;
+}
+.header p.login{
+	float: right;
+	color: #999999;
+	font-size: 16px;
+	margin-top: 44px;
+	border: none;
+	margin-right: 48px;
+}
+.header p.login a{
+	color: #333333;
+	text-decoration: none;
+	padding-left: 10px;
+}
+.header a.back{
+	float: right;
+	text-decoration: none;
+	color: #999999;
+	font-size: 16px;
+	margin-right: 20px;
+	margin-top: 64px;
+}
+.content{
+	clear: both;
+	overflow: hidden;
+	font-family: "微软雅黑";
+}
+.content form{
+	width: 681px;
+	margin-top: 40px;
+	float: left;
+	border-right: 1px solid #d8d8d8;
+}
+.content label{
+	width: 453px;
+	height: 60px;
+	border: 1px solid #e6e6e6;
+	margin: 0 auto 30px;
+	display: block;
+}
+.content label span{
+	float: left;
+	display: block;
+	font-size: 16px;
+	color: #333333;
+	height: 60px;
+	
+	font-weight: bold;
+	line-height: 60px;
+	padding-left: 22px;
+}
+.content label input{
+	float: right;
+	outline: none;
+	height: 58px;
+	border: none;
+	line-height: 58px;
+	padding: 0 10px;
+	width: 330px;
+	color: #999999;
+	font-size: 16px;
+	font-weight: normal;
+}
+.content label .dropdown{
+	float: left;
+	height: 60px;
+}
+.content label .dropdown .btn{
+	background: transparent;
+	font-size: 16px;
+	color: #333333;
+	font-weight: bold;
+	padding-left: 22px;
+	outline: none;
+	margin-top: -7px;
+}
+.content label .dropdown span{
+	height: 0;
+	width: 0;
+	padding: 0;
+	float: none;
+	display: inline-block;
+	color: #949595;
+	font-weight: normal;
+	
+}
+.content label .dropdown span.glyphicon-menu-down{
+	font-size: 12px;
+	padding-left: 7px;
+}
+.content label:nth-child(4) input{
+	border-left: 1px solid #cccccc;
+}
+.dropdown-menu{
+	margin-top: -1px;
+	min-width: 121px;
+}
+.dropdown-menu > li > a {
+	text-align: center;
+}
+.content label p{
+	float: right;
+	font-size: 16px;
+	color: #999999;
+	margin-top: 5px;
+}
+.content label p a{
+	text-decoration: none;
+	color: #3366cc;
+	padding-left: 5px;
+}
+.content label:nth-child(5) i {
+	display: block;
+	float: right;
+	margin-right: -70px;
+	width: 95px;
+	height: 58px;
+	color: #565656;
+	font-size: 28px;
+	font-family: "微软雅黑";
+	cursor: pointer;
+	text-align: center;
+	line-height: 58px;
+	font-style: oblique;
+}
+.content label:nth-child(5) input{
+	width: 216px;
+}
+.content label a.phone_code{
+	display: block;
+	width: 124px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	text-decoration: none;
+	color: #333333;
+	font-size: 16px;
+	background: #f2f2f2;
+	float: right;
+	margin: 5px;
+}
+.content label:nth-child(6) input{
+	width: 198px;
+}
+.content  label.c-checkbox{
+	width: 453px;
+	height: 15px;
+	cursor: pointer;
+	position: relative;
+	border: none;
+}
+.content  label.c-checkbox input{
+	position: absolute;
+	visibility: hidden;
+}
+.content  .c-checkbox span{
+	position: absolute;
+	display: block;
+	width: 16px;
+	height: 18px;
+	border: 1px solid #e0e0e0;	
+	padding: 0;	
+	top: 0px;
+}
+.content  .c-checkbox input:checked + span:after{
+	position: absolute;
+    display: block;
+    left: 4px;
+    top: 1px;
+    width: 6px;
+    height: 12px;
+    border: solid #272536;
+    border-width: 0 3px 3px 0;
+    transform: rotate(35deg);
+    content: "";
+}
+.content  .c-checkbox p{
+	font-size: 14px;
+	color: #333333;
+	float: none;
+	padding-left: 30px;
+}
+.content  .c-checkbox p a{
+	padding-left: 0;
+	color: #3366cc;
+	text-decoration: none;
+}
+.content .once_re{
+	width: 453px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	text-decoration: none;
+	background: #d23291;
+	color: #FFFFFF;
+	font-size: 19px;
+	font-weight: bold;
+	display: block;
+	margin: 40px auto;
+	margin-bottom: 0;
+}
+.content .message{
+	width: 517px;
+	float: right;
+	overflow: hidden;
+	margin-top: 40px;
+	font-family: "微软雅黑";
+}
+.content .message .message_text{
+	background: url(../img/images/phone_03.jpg) no-repeat;
+	margin: 0 auto;
+	text-align: center;	
+	width: 238px;
+}
+.content .message .message_text h1{
+	color: #999999;
+	padding-top: 111px;
+	font-size: 22px;
+}
+.content .message .message_text p{
+	color:#999999;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.content .message .message_text p i{
+	font-style: normal;
+	font-size: 14px;
+	color: #333333;
+}
+.content .message .message_text p:nth-child(2){
+	padding-top: 64px;
+}
+.content .message .message_text p:nth-child(4){
+	font-size: 16px;
+	color: #333333;
+	margin-top: 15px;
+}
+.content .message .message_text h2{
+	color: #999999;
+	font-size: 17px;
+	background: url(../img/qy.jpg) no-repeat 20px;
+	height: 46px;
+	line-height: 46px;
+	margin-top: 65px;
+	padding-left: 20px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+.content .message .message_text h2 a{
+	text-decoration: none;
+	color: #999999;
+}
+.content .message .message_text p.line{
+	border-top: 1px solid #9e9e9e;
+	width: 180px;
+	margin-left: 39px;
+}
+.content .message .message_text h3{
+	font-size: 17px;
+	background: url(../img/dq.jpg) no-repeat 20px;
+	padding-left: 45px;
+	margin-left: 20px;
+	margin-top: 25px;
+}
+.content .message .message_text h3 a{
+	text-decoration: none;
+	color: #999999;
+}
+
+.footer{
+	margin-top: 160px;
+	clear: both;
+	overflow: hidden;
+	font-family: "微软雅黑";
+	}
+.footer .mg{
+	text-align: center;
+	border-top: 1px solid #666666;
+}	
+.footer ul{
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+.footer ul li{
+	text-align: center;
+	float: left;
+	margin-top:18px;
+	padding: 0 13px;
+	border-right: 1px solid #adadad;
+	
+}
+.footer ul li:last-child{
+	border: none;
+}
+.footer ul li a{
+	color: #666666;
+	font-size: 14px;
+	text-decoration: none;
+}
+.footer p{
+	text-align: center;
+	font-size: 14px;
+	color: #666666;
+	margin-top: 17px;
+	margin-bottom: 15px;
+}

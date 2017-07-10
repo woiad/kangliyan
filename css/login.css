@@ -1,0 +1,261 @@
+.header{
+	width: 100%;
+	height: 100px;
+	box-shadow: 0 0 18px  #b9b6b5;
+}
+
+.header a.back{
+	float: right;
+	text-decoration: none;
+	color: #999999;
+	font-size: 14px;
+	margin-right: 20px;
+	margin-top: 64px;
+}
+.content .login{
+	width: 100%;
+	height: 598px;
+	background: url(../img/login_banner.jpg) no-repeat;
+	margin: 5px 0 0 0;
+	background-size: 100% 100%;
+}
+.content .login form{
+	width: 453px;
+	height: 484px;
+	background: #FFFFFF;
+	float: right;
+	font-family: "微软雅黑";
+	margin-top: 10px;
+	border: 1px solid #e5e5e5;
+}
+.content .login  ul.way{
+	width: 100%;
+	height: 72px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.content .login  ul.way li{
+	width: 50%;
+	float: left;
+	height: 72px;
+	line-height: 72px;
+}
+.content .login  ul.way li h1{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	color: #666666;
+	cursor: pointer;
+}
+.content .login  ul.way li:first-child h1 span{
+	float: right;
+	color: #e5e5e5;
+}
+.content .login  ul.way li.on h1{
+	font-size: 24px;
+	font-weight: bold;
+	color: #c9177d;
+	text-align: center;
+	cursor: pointer;
+}
+.content .login .text {
+	clear: both;
+	overflow: hidden;
+	margin-top: 14px;
+}
+.content .login .text li{
+	width: 398px;
+	margin: 0 auto;
+	display: none;
+}
+.content .login .text li:first-child{
+	text-align: center;
+}
+.content .login .text li.on{
+	display: block;
+}
+.content .login .text li h1{
+	color:#333333;
+	font-size: 16px;
+	text-align: center;
+	background: url(../img/light.png) 14px no-repeat;
+	border: 1px solid #ffc800;
+	height: 32px;
+	line-height: 32px;
+}
+.content .login .text .tip{
+	float: right;
+	margin-top: -17px;
+	width: 120px;
+	position: relative;
+}
+
+.content .login .text .tip p{
+	font-size: 14px;
+	position: absolute;
+	color: red;
+	display: none;
+	
+}
+.content .login .text li .ipt{
+	width: 398px;
+	height: 50px;
+	border: 1px solid #e5e5e5;
+	display: block;
+	margin-top: 14px;
+	margin-bottom: 29px;
+}
+.content .passtip{
+	float: right;
+    margin-top: -22px;
+    width: 120px;
+    position: relative;
+}
+.content .passtip p{
+	position: absolute;
+	color: red;
+	font-size: 14px;
+	display: none;
+}
+.content .login .text li label span{
+	float: left;
+	display: block;
+}
+.content .login .text li label.ipt input{
+	float: right;
+	height: 50px;
+	outline: none;
+	width: 323px;
+	padding: 0 10px;
+	border:none;
+	font-size: 18px;
+	color: #999999;
+}
+.content .login .text li label.c-checkbox{
+	width: 84px;
+	height: 15px;
+	cursor: pointer;
+	position: relative;
+}
+.content .login .text li label.c-checkbox input{
+	position: absolute;
+	visibility: hidden;
+}
+.login  .c-checkbox span{
+	position: absolute;
+	display: block;
+	width: 17px;
+	height: 15px;
+	border: 1px solid #e0e0e0;		
+	top: 0px;
+}
+.login  .c-checkbox input:checked + span:after{
+	position: absolute;
+    display: block;
+    left: 5px;
+    top: 0px;
+    width: 4px;
+    height: 10px;
+    border: solid #272536;
+    border-width: 0 3px 3px 0;
+    transform: rotate(35deg);
+    content: "";
+}
+.login  .c-checkbox i{
+	font-style: normal;
+	color: #999999;
+	font-size: 14px;
+	padding-left: 30px;
+}
+.login  .text a{
+	float: right;
+	font-size: 14px;
+	color: #999999;
+	text-decoration: none;
+}
+.login .text a.btn{
+	width:100%;
+	height: 46px;
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 24px;
+	background: #c9177d;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 46px;
+	margin-top: 16px;
+}
+.login .bottom{
+	width: 100%;
+	clear: both;
+	overflow: hidden
+}
+.login .bottom ul{
+	border-top: 1px solid #cccccc;
+	margin-top: 35px;
+}
+.login .bottom ul li{
+	border-right:  1px solid #cccccc;
+	width: 58px;
+	text-align: center;
+	float: left;
+	margin-top: 22px;
+}
+.login .bottom ul li:last-child{
+	border: none;
+}
+.login .bottom ul li a{
+	color: #999999;
+	text-decoration: none;
+	font-size: 14px;
+}
+.login .bottom ul li:first-child{
+	padding-left: 61px;
+}
+.login .bottom a.once{
+	display: block;
+	float: right;
+	color: #cc0000;
+	font-size: 16px;
+	background: url(../img/login_once.png) left no-repeat;
+	padding-left: 31px;
+	margin-right: 26px;
+	margin-top: 22px;
+}
+.footer{
+	margin-top: 130px;
+	clear: both;
+	overflow: hidden;
+	font-family: "微软雅黑";
+	}
+.footer .mg{
+	text-align: center;
+	border-top: 1px solid #666666;
+}	
+.footer ul{
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+.footer ul li{
+	text-align: center;
+	float: left;
+	margin-top:18px;
+	padding: 0 13px;
+	border-right: 1px solid #adadad;
+	
+}
+.footer ul li:last-child{
+	border: none;
+}
+.footer ul li a{
+	color: #666666;
+	font-size: 14px;
+}
+.footer p{
+	text-align: center;
+	font-size: 14px;
+	color: #666666;
+	margin-top: 17px;
+	margin-bottom: 15px;
+}
